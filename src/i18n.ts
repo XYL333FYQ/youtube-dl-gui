@@ -10,10 +10,11 @@ import ruRaw from './locales/ru.json';
 import trRaw from './locales/tr.json';
 import ptBRRaw from './locales/pt-BR.json';
 import zhTWRaw from './locales/zh-TW.json';
+import zhCNRaw from './locales/zh-CN.json';
 import { detectBrowserLanguageCodes } from './helpers/subtitles/languages.ts';
 
 export const availableLocales: Record<string, boolean> = {
-  'en': true, 'es': true, 'nl': true, 'it': true, 'fr': true, 'de': true, 'nb': true, 'ru': true, 'tr': true, 'pt-BR': true, 'zh-TW': true,
+  'en': true, 'es': true, 'nl': true, 'it': true, 'fr': true, 'de': true, 'nb': true, 'ru': true, 'tr': true, 'pt-BR': true, 'zh-TW': true, 'zh-CN': true,
 } as const;
 
 type MessageSchema = typeof en;
@@ -28,6 +29,7 @@ const ru = ruRaw as unknown as MessageSchema;
 const tr = trRaw as unknown as MessageSchema;
 const ptBR = ptBRRaw as unknown as MessageSchema;
 const zhTW = zhTWRaw as unknown as MessageSchema;
+const zhCN = zhCNRaw as unknown as MessageSchema;
 
 export function getDefaultLocale() {
   const browserLocale = detectBrowserLanguageCodes()[0];
@@ -54,5 +56,6 @@ export const i18n = createI18n<[MessageSchema], Locale, false>({
     tr,
     'pt-BR': ptBR,
     'zh-TW': zhTW,
+    'zh-CN': zhCN,
   },
 });
