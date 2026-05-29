@@ -24,7 +24,9 @@
       }
     ],
     "security": {
-      "capabilities": ["default"],
+      "capabilities": [
+        "default"
+      ],
       "pattern": {
         "use": "isolation",
         "options": {
@@ -44,7 +46,14 @@
   "bundle": {
     "active": true,
     "createUpdaterArtifacts": false,
-    "targets": ["nsis", "app", "dmg", "appimage", "deb", "rpm"],
+    "targets": [
+      "nsis",
+      "app",
+      "dmg",
+      "appimage",
+      "deb",
+      "rpm"
+    ],
     "icon": [
       "icons/32x32.png",
       "icons/128x128.png",
@@ -85,7 +94,8 @@
       ],
       "windows": {
         "installMode": "passive"
-      }
+      },
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDNBRTI0NDIwNzRDQUIzRUMKUldUc3M4cDBJRVRpT21CaVE1VmRZQ3pLSGZKb2F3OGRkM2ZCYXEyYStUQ0UyNnJ0aDBKMXh3eU4K"
     }
   }
 }
