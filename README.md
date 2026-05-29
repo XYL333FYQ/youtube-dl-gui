@@ -4,64 +4,49 @@
 
 **[English](./README_en.md)** | **中文**
 
-![version badge](https://img.shields.io/github/v/release/XYL333FYQ/video-downloader-plus?label=最新版本) ![GitHub](https://img.shields.io/github/license/XYL333FYQ/video-downloader-plus) ![downloads](https://img.shields.io/github/downloads/XYL333FYQ/video-downloader-plus/total)
+[![latest release](https://img.shields.io/github/v/release/XYL333FYQ/video-downloader-plus?label=最新版本)](https://github.com/XYL333FYQ/video-downloader-plus/releases/latest) [![license](https://img.shields.io/github/license/XYL333FYQ/video-downloader-plus)](./LICENSE) [![downloads](https://img.shields.io/github/downloads/XYL333FYQ/video-downloader-plus/total)](https://github.com/XYL333FYQ/video-downloader-plus/releases)
 
-基于 [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui)（Open Video Downloader）的增强版，新增简体中文界面支持。
+> 基于 [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui)（Open Video Downloader）增强，新增简体中文界面。
+> 跨平台桌面应用，从 **1800+** 个网站下载视频、音频、字幕和元数据。
 
-一个跨平台桌面应用，让你从 1800+ 个网站下载视频、音频、字幕和元数据。
+## 快速下载
 
-> **致谢：** 本项目 fork 自 [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui)，原作者 jely2002 及所有贡献者。本 fork 仅添加简体中文翻译，核心代码与原项目保持同步。
+**[👉 点击这里去下载](https://github.com/XYL333FYQ/video-downloader-plus/releases/latest)**
 
-## 与原版的区别
+| 文件 | 说明 |
+|------|------|
+| `Open Video Downloader_x.x.x_x64-setup.exe` | Windows 安装版（推荐） |
+| `open-video-downloader.exe` | Windows 便携版（免安装） |
 
-- 新增 **简体中文（zh-CN）** 界面语言，可在设置中一键切换
-- 保留原版全部功能和更新
+> Mac / Linux 用户请从 [原项目 Releases](https://github.com/jely2002/youtube-dl-gui/releases) 下载原版，功能完全一致。
 
-## 功能特性
+### 安装后切换中文
 
-- **跨平台：** Windows、macOS、Linux 全支持
-- **视频/音频下载：** 下载完整视频或仅提取音频
-- **字幕和元数据：** 自动获取可用字幕和视频信息
-- **画质选择：** 自选分辨率、帧率和输出格式（MP4/MKV）
-- **播放列表：** 一次性下载整个播放列表
-- **自定义输出：** 设置下载路径，使用预设或自定义模板命名文件
-- **智能队列：** 自动平衡多任务下载，不卡电脑
-- **身份验证：** 支持浏览器 Cookie、基本认证和视频密码
-- **自动更新：** 应用和 yt-dlp 自动保持最新
-- **深色/浅色模式：** 跟随系统主题
-- **快捷键：** 用快捷键管理下载队列，通知推送进度
+打开应用 → **Settings** → **App** → **Language** → 选择 **Simplified Chinese - 简体中文**
 
-## 下载安装
+## 功能
 
-前往 [Releases 页面](https://github.com/XYL333FYQ/video-downloader-plus/releases) 下载最新版本。
+- **1800+ 网站支持** — 不仅 YouTube，B站、推特等都能下
+- **视频 / 音频下载** — 选画质、格式（MP4/MKV/MP3 等）
+- **播放列表批量下载** — 整个列表一次搞定
+- **字幕下载** — 自动获取字幕，支持嵌入视频
+- **SponsorBlock** — 自动跳过赞助片段
+- **智能队列** — 多任务并行，不卡电脑
+- **Cookie 登录** — 支持浏览器 Cookie 下载私密视频
+- **深色 / 浅色模式** — 跟随系统主题
+- **快捷键 + 通知** — 键盘操作，后台推送进度
 
-| 你的电脑 | 下载文件 |
-|---------|---------|
-| **Windows** | `Open.Video.Downloader_x.x.x_x64-setup.exe` |
-| **Mac（Intel）** | `Open.Video.Downloader_x.x.x_x64.dmg` |
-| **Mac（Apple Silicon M1/M2/M3/M4）** | `Open.Video.Downloader_x.x.x_aarch64.dmg` |
-| **Linux（x64）** | `Open.Video.Downloader_x.x.x_amd64.AppImage` |
-| **Linux（aarch64）** | `Open.Video.Downloader_x.x.x_aarch64.AppImage` |
-| **Linux Debian/Ubuntu（x64）** | `Open.Video.Downloader_x.x.x_amd64.deb` |
-| **Linux Debian/Ubuntu（aarch64）** | `Open.Video.Downloader_x.x.x_arm64.deb` |
-| **Linux Fedora/RHEL（x64）** | `Open.Video.Downloader_x.x.x-x_amd64.rpm` |
-| **Linux Fedora/RHEL（aarch64）** | `Open.Video.Downloader_x.x.x-x_aarch64.rpm` |
+## 致谢
 
-### 切换中文
+| 项目 | 说明 |
+|------|------|
+| [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) | 原项目，由 jely2002 及贡献者开发 |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 下载引擎，166k+ stars |
+| [Tauri](https://tauri.app/) | 桌面框架，Rust + Web |
 
-安装后打开应用 → **Settings（设置）** → **App（应用）** → **Language（语言）** → 选择 **中文（简体）**
+## 贡献
 
-## 技术栈
-
-- 前端：Vue 3 + TypeScript
-- 后端：Rust + [Tauri](https://tauri.app/)
-- 下载引擎：[yt-dlp](https://github.com/yt-dlp/yt-dlp)
-
-## 参与贡献
-
-欢迎提交 Issue 和 PR！
-
-开发环境需要 Node.js（v24+）和 Rust。
+欢迎 Issue 和 PR！开发需要 Node.js（v24+）和 Rust。
 
 ```bash
 npm install
@@ -70,8 +55,4 @@ npm run tauri dev
 
 ## 许可证
 
-本项目基于 [AGPL-3.0 许可证](./LICENSE) 开源。
-
-### 免责声明
-
-本应用按 AGPL-3.0 许可证（第 16 条）分发，维护者不对滥用行为承担责任。请遵守当地法律和平台服务条款。
+[AGPL-3.0](./LICENSE) 开源。请遵守当地法律和平台服务条款。
