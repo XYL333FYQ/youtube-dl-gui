@@ -1,14 +1,14 @@
 <img src="https://raw.githubusercontent.com/jely2002/youtube-dl-gui/v2.0.0/renderer/img/icon.png" alt="logo" align="left" height="100"/>
 
-# Open Video Downloader (Simplified Chinese Edition)
+# Video Downloader Plus
 
 **English** | **[中文](./README.md)**
 
-![version badge](https://img.shields.io/github/v/release/XYL333FYQ/youtube-dl-gui?label=latest) ![GitHub](https://img.shields.io/github/license/XYL333FYQ/youtube-dl-gui) ![downloads](https://img.shields.io/github/downloads/XYL333FYQ/youtube-dl-gui/total)
+![version badge](https://img.shields.io/github/v/release/XYL333FYQ/video-downloader-plus?label=latest) ![GitHub](https://img.shields.io/github/license/XYL333FYQ/video-downloader-plus) ![downloads](https://img.shields.io/github/downloads/XYL333FYQ/video-downloader-plus/total)
 
-A Simplified Chinese localized fork of [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) (Open Video Downloader).
+An enhanced fork of [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) (Open Video Downloader) with Simplified Chinese interface support.
 
-The original is a cross-platform desktop app for downloading videos, audio, subtitles and metadata from 1800+ websites. This fork adds **Simplified Chinese (zh-CN)** interface support on top of the original.
+A cross-platform desktop app for downloading videos, audio, subtitles and metadata from 1800+ websites.
 
 > **Credits:** Forked from [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) by jely2002 and contributors. This fork only adds Simplified Chinese translation and keeps core code in sync with upstream.
 
@@ -33,7 +33,7 @@ The original is a cross-platform desktop app for downloading videos, audio, subt
 
 ## Download
 
-Get the latest version from the [Releases page](https://github.com/XYL333FYQ/youtube-dl-gui/releases).
+Get the latest version from the [Releases page](https://github.com/XYL333FYQ/video-downloader-plus/releases).
 
 | Your Computer | Download |
 |--------------|----------|

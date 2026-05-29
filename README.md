@@ -1,14 +1,14 @@
 <img src="https://raw.githubusercontent.com/jely2002/youtube-dl-gui/v2.0.0/renderer/img/icon.png" alt="logo" align="left" height="100"/>
 
-# Open Video Downloader 简体中文版
+# Video Downloader Plus
 
 **[English](./README_en.md)** | **中文**
 
-![version badge](https://img.shields.io/github/v/release/XYL333FYQ/youtube-dl-gui?label=最新版本) ![GitHub](https://img.shields.io/github/license/XYL333FYQ/youtube-dl-gui) ![downloads](https://img.shields.io/github/downloads/XYL333FYQ/youtube-dl-gui/total)
+![version badge](https://img.shields.io/github/v/release/XYL333FYQ/video-downloader-plus?label=最新版本) ![GitHub](https://img.shields.io/github/license/XYL333FYQ/video-downloader-plus) ![downloads](https://img.shields.io/github/downloads/XYL333FYQ/video-downloader-plus/total)
 
-基于 [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui)（Open Video Downloader）的简体中文本地化版本。
+基于 [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui)（Open Video Downloader）的增强版，新增简体中文界面支持。
 
-原版是一个跨平台桌面应用，让你从 1800+ 个网站下载视频、音频、字幕和元数据。本 fork 在原版基础上新增了 **简体中文（zh-CN）** 界面支持。
+一个跨平台桌面应用，让你从 1800+ 个网站下载视频、音频、字幕和元数据。
 
 > **致谢：** 本项目 fork 自 [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui)，原作者 jely2002 及所有贡献者。本 fork 仅添加简体中文翻译，核心代码与原项目保持同步。
 
@@ -33,7 +33,7 @@
 
 ## 下载安装
 
-前往 [Releases 页面](https://github.com/XYL333FYQ/youtube-dl-gui/releases) 下载最新版本。
+前往 [Releases 页面](https://github.com/XYL333FYQ/video-downloader-plus/releases) 下载最新版本。
 
 | 你的电脑 | 下载文件 |
 |---------|---------|
