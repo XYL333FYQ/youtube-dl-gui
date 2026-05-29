@@ -25,6 +25,11 @@ jobs:
       - name: Install frontend dependencies
         run: npm ci
 
+      - name: Install cargo-about
+        uses: taiki-e/install-action@v2
+        with:
+          tool: cargo-about
+
       - name: Install tauri-cli
         run: cargo install tauri-cli
 
