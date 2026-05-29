@@ -4,64 +4,49 @@
 
 **English** | **[中文](./README.md)**
 
-![version badge](https://img.shields.io/github/v/release/XYL333FYQ/video-downloader-plus?label=latest) ![GitHub](https://img.shields.io/github/license/XYL333FYQ/video-downloader-plus) ![downloads](https://img.shields.io/github/downloads/XYL333FYQ/video-downloader-plus/total)
+[![latest release](https://img.shields.io/github/v/release/XYL333FYQ/video-downloader-plus?label=latest)](https://github.com/XYL333FYQ/video-downloader-plus/releases/latest) [![license](https://img.shields.io/github/license/XYL333FYQ/video-downloader-plus)](./LICENSE) [![downloads](https://img.shields.io/github/downloads/XYL333FYQ/video-downloader-plus/total)](https://github.com/XYL333FYQ/video-downloader-plus/releases)
 
-An enhanced fork of [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) (Open Video Downloader) with Simplified Chinese interface support.
-
-A cross-platform desktop app for downloading videos, audio, subtitles and metadata from 1800+ websites.
-
-> **Credits:** Forked from [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) by jely2002 and contributors. This fork only adds Simplified Chinese translation and keeps core code in sync with upstream.
-
-## What's Different
-
-- Added **Simplified Chinese (zh-CN)** as a selectable UI language
-- All original features and updates preserved
-
-## Features
-
-- **Cross-platform:** Windows, macOS and Linux
-- **Audio or video downloads:** grab full videos or extract audio only
-- **Subtitles and metadata:** automatically saves available captions and video info
-- **Quality control:** choose resolution, frame rate, and output format (MP4/MKV)
-- **Playlists:** download entire playlists at once
-- **Custom output:** set download location and filename templates
-- **Smart queueing:** balances multiple downloads automatically
-- **Authentication:** supports browser cookies, basic auth and video passwords
-- **Automatic updates:** both the app and yt-dlp stay up to date
-- **Light and dark mode:** follows your system theme
-- **Shortcuts:** manage downloads with keyboard shortcuts and notifications
+> Enhanced fork of [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) (Open Video Downloader) with Simplified Chinese UI.
+> Cross-platform desktop app to download videos, audio, subtitles and metadata from **1800+** websites.
 
 ## Download
 
-Get the latest version from the [Releases page](https://github.com/XYL333FYQ/video-downloader-plus/releases).
+**[👉 Get the latest release](https://github.com/XYL333FYQ/video-downloader-plus/releases/latest)**
 
-| Your Computer | Download |
-|--------------|----------|
-| **Windows** | `Open.Video.Downloader_x.x.x_x64-setup.exe` |
-| **Mac (Intel)** | `Open.Video.Downloader_x.x.x_x64.dmg` |
-| **Mac (Apple Silicon M1/M2/M3/M4)** | `Open.Video.Downloader_x.x.x_aarch64.dmg` |
-| **Linux (x64)** | `Open.Video.Downloader_x.x.x_amd64.AppImage` |
-| **Linux (aarch64)** | `Open.Video.Downloader_x.x.x_aarch64.AppImage` |
-| **Linux Debian/Ubuntu (x64)** | `Open.Video.Downloader_x.x.x_amd64.deb` |
-| **Linux Debian/Ubuntu (aarch64)** | `Open.Video.Downloader_x.x.x_arm64.deb` |
-| **Linux Fedora/RHEL (x64)** | `Open.Video.Downloader_x.x.x-x_amd64.rpm` |
-| **Linux Fedora/RHEL (aarch64)** | `Open.Video.Downloader_x.x.x-x_aarch64.rpm` |
+| File | Description |
+|------|-------------|
+| `Open Video Downloader_x.x.x_x64-setup.exe` | Windows installer (recommended) |
+| `open-video-downloader.exe` | Windows portable (no install needed) |
+
+> Mac / Linux users: download from the [original project](https://github.com/jely2002/youtube-dl-gui/releases) — same features.
 
 ### Switch to Chinese
 
-After installing: **Settings** → **App** → **Language** → select **中文（简体）**
+Open the app → **Settings** → **App** → **Language** → select **Simplified Chinese - 简体中文**
 
-## Tech Stack
+## Features
 
-- Frontend: Vue 3 + TypeScript
-- Backend: Rust + [Tauri](https://tauri.app/)
-- Download engine: [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- **1800+ sites** — YouTube, Twitter, Bilibili and more
+- **Video / audio download** — pick quality, format (MP4/MKV/MP3 etc.)
+- **Playlist batch download** — grab entire playlists at once
+- **Subtitles** — auto-fetch and embed into video
+- **SponsorBlock** — skip sponsored segments automatically
+- **Smart queue** — parallel downloads without slowing your PC
+- **Cookie login** — use browser cookies for private content
+- **Dark / light mode** — follows system theme
+- **Shortcuts + notifications** — keyboard control with background alerts
+
+## Credits
+
+| Project | Description |
+|---------|-------------|
+| [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) | Original app by jely2002 & contributors |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | Download engine, 166k+ stars |
+| [Tauri](https://tauri.app/) | Desktop framework, Rust + Web |
 
 ## Contributing
 
-Issues and PRs are welcome!
-
-You'll need Node.js (v24+) and Rust.
+Issues and PRs welcome! You'll need Node.js (v24+) and Rust.
 
 ```bash
 npm install
@@ -70,7 +55,4 @@ npm run tauri dev
 
 ## License
 
-Distributed under the [AGPL-3.0 license](./LICENSE).
-
-### Disclaimer
-The maintainers cannot be held liable for misuse of this application, as stated in the AGPL-3.0 license (section 16). Please comply with local laws and platform terms of service.
+[AGPL-3.0](./LICENSE). Please comply with local laws and platform terms of service.
